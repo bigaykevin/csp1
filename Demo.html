@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="https://use.fontawesome.com/0b6fab0879.js"></script>
+	<title>NavEssentials - Demo</title>
+</head>
+<body id="Demo">	
+
+		<div class="toggle">
+			<div class="toggle-icon">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</div>
+		</div>
+		<nav>
+			<ul id=menu>
+			<hr>
+				<li><a href="Home.html">HOME</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="Demo.html">DEMO</a></li>
+				<li><a href="Home.html#signup"">SIGNUP</a></li>
+			</ul>
+		</nav>
+
+		<section class="demo-calculator">
+			<div class="dr-mercator">
+				<div class="dr-calc">
+					<div class="dr-input">
+						<h3>Dead Reckoning</h3>
+						<input type="text" name="latitdude1" class="deadReckon latitude" placeholder="Latitude">
+						<input type="text" name="longitude1" class="deadReckon longitude" placeholder="Longitude">
+						<input type="text" name="course" class="deadReckon course" placeholder="Course">
+						<input type="text" name="speed" class="deadReckon speed" placeholder="Speed">
+					</div><!-- /.de-input -->
+					<hr>
+					<div class="dr-output">
+						<input type="text" name="latitdude1" class="deadReckon latitude" placeholder="Latitude">
+						<input type="text" name="longitude1" class="deadReckon longitude" placeholder="Longitude">
+					</div><!-- /.dr-output -->
+				</div><!-- /.dr-calc -->
+				<div class="mercator-calc">
+					<div class="mercator-input">
+						<h3>Mercator</h3>
+						<input type="text" name="latitdude1" class="deadReckon latitude" placeholder="Latitude">
+						<input type="text" name="longitude1" class="deadReckon longitude" placeholder="Longitude">
+						<input type="text" name="latitdude1" class="deadReckon latitude" placeholder="Latitude">
+						<input type="text" name="longitude1" class="deadReckon longitude" placeholder="Longitude">
+					</div><!-- /.de-input -->
+					<hr>
+					<div class="mercator-output">
+						<input type="text" name="course" class="deadReckon course" placeholder="Course">
+						<input type="text" name="speed" class="deadReckon speed" placeholder="Speed">
+					</div><!-- /.mercator-output -->
+				</div>
+			</div><!-- /.dr-mercator -->
+			<div class="eta-calc">
+				<h3>E.T.A. Required Speed</h3>
+				<div class="dep-input">
+					<input type="text" name="" class="port" placeholder="Departure Port">
+					<input type="text" name="" class="zd" placeholder="ZD">
+				</div>
+				<div class="time-input">	
+					<input class="time" type="text" name="" placeholder="0000H">
+					<input class="date" type="text" name="" placeholder="01/01/2017">
+					<input class="weekday" type="text" name="" placeholder="Monday">
+				</div>	
+				<div class="arr-input">
+					<input type="text" name="" class="port" placeholder="Arrival Port">
+					<input type="text" name="" class="zd" placeholder="ZD">
+				</div>
+				<div class="time-input">	
+					<input class="time" type="text" name="" placeholder="0000H">
+					<input class="date" type="text" name="" placeholder="01/01/2017">
+					<input class="weekday" type="text" name="" placeholder="Monday">
+				</div>	
+				<input class="dtg-input" type="text" name="" placeholder="Distance to go">
+	      <table>
+	        <tr>
+	          <th class="time-th">Time</th>
+	          <th class="date-th">Date</th>
+	          <th class="day-th">Day</th>
+	          <th class="speed-th">Speed</th>
+	        </tr>
+	        <tbody>
+	          <tr>
+	            <td>0310H</td>
+	            <td>01-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	          <tr>
+	            <td>0410H</td>
+	            <td>02-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	          <tr>
+	            <td>0510H</td>
+	            <td>03-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	           <tr>
+	            <td>0610H</td>
+	            <td>04-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	          <tr>
+	            <td>0710H</td>
+	            <td>05-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	          <tr>
+	            <td>0810H</td>
+	            <td>06-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	           <tr>
+	            <td>0910H</td>
+	            <td>07-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	           <tr>
+	           	<td>1010H</td>
+	            <td>08-Jan-2017</td>
+	            <td>Wednesday</td>
+	            <td>12.00 kts</td>
+	          </tr>
+	        </tbody>
+	      </table><br/>
+			</div><!-- /.eta-calc -->
+			<div class="instructions">
+				<h3>How to Use</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+	</section>
+
+	<footer>
+		<div class="copyright">
+			<h3>NavEssentials</h3>
+			<h5>Copyright &copy; Kevin Bigay 2017</h5>
+			<h5>this is a test website</h5>
+			<h5 class="disclaimer">DISCLAIMER</h5>
+		</div>
+		<ul class="about-footer">
+			<li>About</li>
+			<li>Program List</li>
+			<li>Software Features</li>
+			<li>Demo Calculator</li>
+		</ul>
+		<ul class="address">
+			<li>Connect</li>
+			<li>1-893-909-8887</li>
+			<li>support@navessentials.co</li>
+			<li>221B Baker St., London, UK</li>
+		</ul>
+		<div class="socialmedia">
+			<a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x"></i></a>
+			<a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+			<a href="https://www.youtube.com"><i class="fa fa-youtube fa-2x"></i></a>
+			<a href="https://www.gitlab.com"><i class="fa fa-gitlab fa-2x"></i></a>
+			<a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+			<a href="https://www.slack.com"><i class="fa fa-slack fa-2x"></i></a>
+			<a href="https://www.spotify.com"><i class="fa fa-spotify fa-2x"></i></a>
+			<a href="https://www.github.com"><i class="fa fa-github fa-2x"></i></a>
+		</div> 
+		<p class="disclaimer-par">Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
