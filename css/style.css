@@ -6,7 +6,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Barlow-Light, sans-serif;
+	font-family: Barlow, sans-serif;
 	font-weight: lighter;
 	transition: all ease-in-out 400ms;
 }
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-	font-family: "Barlow-Light";
+	font-family: "Barlow";
 	src: url("fonts/Barlow-Light.ttf");
 }
 
@@ -1476,7 +1476,7 @@ section.demo-calculator {
 }
 .demo-calculator h3{
 	font-size: 1.5em;
-	font-family: Barlow-Light, sans-serif;
+	font-family: Barlow, sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	color: rgba(66,200,206,1);
